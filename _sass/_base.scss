@@ -156,6 +156,9 @@ header {
     @include background-cover;
     background-position: center;
     background-image: url('../img/webp.webp');
+    background-size: contain;
+    background-color: #222;;
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
     .header-content {
@@ -182,7 +185,7 @@ header {
         }
     }
     @media (min-width: 768px) {
-        min-height: 100%;
+        min-height: 768px;
         .header-content {
             position: absolute;
             top: 50%;
